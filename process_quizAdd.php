@@ -1,5 +1,5 @@
 <?php
-include('includes/header.html');
+include('includes/header.php');
 
 error_reporting(-1);
 ini_set('display_errors', 'On');
@@ -41,6 +41,6 @@ $dbc->close();
 
 
 
-include('includes/footer.html');
+include('includes/footer.php');
 ?>
 
