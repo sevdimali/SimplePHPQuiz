@@ -1,5 +1,5 @@
 <?php
-include('includes/header.html');
+include('includes/header.php');
 
 ?>
 <div class="row">
@@ -31,4 +31,4 @@ include('includes/header.html');
         </form>
     </div>
      </div>
-    <?php include('includes/footer.html') ?>
+    <?php include('includes/footer.php') ?>
