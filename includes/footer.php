@@ -1,5 +1,5 @@
  <div class="footer">
- 	<p class="text-muted">&copy Val Okafor 2014 - Simple PHP Quiz</p>
+ 	<p class="text-muted">&copy Val Okafor <?php echo date('Y'); ?> - Simple PHP Quiz</p>
  </div>
  </div> <!-- /container -->
 
