@@ -11,7 +11,7 @@ ini_set('display_errors', 1);
 $rightAnswer = 0;
 $wrongAnswer = 0;
 
-require_once('includes/header.html');
+require_once('includes/header.php');
 require_once('includes/functions_list.php');
 require_once('quiz.php');
 
@@ -71,7 +71,7 @@ if (isset($_POST['submit'])){
     <input type="submit" name="submit" class="btn btn-primary" value="Submit Quiz" />
 </form>
 
-    <?php   include('includes/footer.html'); ?>
+    <?php   include('includes/footer.php'); ?>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
